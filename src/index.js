@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import BarRecherche from './components/BarRecherche'
+import Header from './components/Header'
+import ListeBiens from './components/ListeBiens'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <BarRecherche />
+    <ListeBiens />
   </React.StrictMode>
 );
 
